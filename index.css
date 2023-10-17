@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#header{
+    border: 1px solid black;
+    height: 13vh;
+    background-color: rgb(238, 94, 51);
+}
+
+.hbox{
+    display: grid;
+}
+
+
+.hbox>div{
+    border: 1px solid green;
+    margin-left: 8vw;
+    margin-right: 8vw;
+
+}
+
+.hb1{
+    height: 5vh;
+}
+
+.hb1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding-right: 1rem;
+}
+
+.hb2{
+    height: 10vh;
+}
+
+
+
+#contain{
+    border: 1px solid black;
+    height: 77vh;
+}
+
+
+
+#footer{
+    border: 1px solid black;
+    height: 10vh;
+}
