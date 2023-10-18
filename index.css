@@ -4,27 +4,25 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: aliceblue;
+}
 
 #header{
     border: 1px solid black;
-    height: 13vh;
+    height: 5rem;
     background-color: rgb(238, 94, 51);
 }
 
-.hbox{
-    display: grid;
-}
-
-
 .hbox>div{
     border: 1px solid green;
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 5rem;
+    margin-right: 5rem;
 
 }
 
 .hb1{
-    height: 5vh;
+    height: 4vh;
 }
 
 .hb1 a{
@@ -35,15 +33,125 @@
 }
 
 .hb2{
-    height: 10vh;
+    height: 9vh;
+    display: flex;
+}
+
+.hb2 div{
+    height: 9vh;
+    border: 1px solid purple;
+    margin-right: 1rem;
+}
+
+.clogo>img{
+    height: 3rem;
+    width: 7rem;
+}
+
+.srcbar>form>input{
+    height: 2rem;
+    margin-top: .6rem;
+    border-radius: 10px;
+    width: 35rem;
+    padding-left: 1rem;
+    border-style: none;
 }
 
 
+
+
+
+
+
+/* =================== {Main Content} ===================*/
 
 #contain{
     border: 1px solid black;
     height: 77vh;
 }
+
+.ly-1{
+    border: 1px solid rgb(109, 3, 230);
+    height: 20rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+}
+
+.lely{
+    border: 1px solid black;
+    height: 100%;
+    width: 20%;
+    column-gap: 1rem;
+    background-color: white;
+}
+
+.rily{
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    column-gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#menu {
+    display: flex;
+    list-style: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #39454d;
+    cursor: pointer;
+}
+
+  #menu li:hover {
+    background-color: #2980b9;
+  }
+
+  /* Button styles */
+  #addMenuItem {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #addMenuItem:hover {
+    background-color: #2980b9;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
