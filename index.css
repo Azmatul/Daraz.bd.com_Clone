@@ -15,7 +15,7 @@ body{
 }
 
 .hbox>div{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-left: 5rem;
     margin-right: 5rem;
 
@@ -39,7 +39,7 @@ body{
 
 .hb2 div{
     height: 9vh;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     margin-right: 1rem;
 }
 
@@ -66,12 +66,12 @@ body{
 /* =================== {Main Content} ===================*/
 
 #contain{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 77vh;
 }
 
 .ly-1{
-    border: 1px solid rgb(109, 3, 230);
+    /* border: 1px solid rgb(109, 3, 230); */
     height: 20rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -80,7 +80,7 @@ body{
 }
 
 .lely{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
     width: 20%;
     column-gap: 1rem;
